@@ -10,7 +10,7 @@ public class Calender {
 		for(int i=1;i<=31;i++) {
 			
 			if(i>=1 && i<=7) {
-				System.out.print(i+"  ");
+				System.out.print(" "+i+" ");
 				if(i==7) {
 					System.out.println();
 				}
@@ -19,7 +19,8 @@ public class Calender {
 			else if(i>=8 && i<=14){
 				
 				if(i>=8 && i<=9) {
-				System.out.print(i+"  ");
+					System.out.print(" "+i+" ");
+
 				}
 				else {
 					System.out.print(i+" ");
@@ -63,7 +64,7 @@ public class Calender {
 		while(j<=31) {
 
 			if(j>=1 && j<=7) {
-				System.out.print(j+"  ");
+				System.out.print(" "+j+" ");
 				if(j==7) {
 					System.out.println();
 				}
@@ -72,7 +73,8 @@ public class Calender {
 			else if(j>=8 && j<=14){
 				
 				if(j>=8 && j<=9) {
-				System.out.print(j+"  ");
+					System.out.print(" "+j+" ");
+
 				}
 				else {
 					System.out.print(j+" ");
@@ -115,7 +117,7 @@ public class Calender {
 		do {
 
 			if(k>=1 && k<=7) {
-				System.out.print(k+"  ");
+				System.out.print(" "+k+" ");
 				if(k==7) {
 					System.out.println();
 				}
@@ -124,7 +126,7 @@ public class Calender {
 			else if(k>=8 && k<=14){
 				
 				if(k>=8 && k<=9) {
-				System.out.print(k+"  ");
+					System.out.print(" "+k+" ");
 				}
 				else {
 					System.out.print(k+" ");
