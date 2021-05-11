@@ -5,7 +5,7 @@ public class StarPatternA {
 
 	public static void main(String[] args) {
 		
-		int row = 7;
+		int row = 6;
 		
 		for(int i=1;i<=row;i++) {
 			
