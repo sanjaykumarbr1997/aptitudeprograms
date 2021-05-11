@@ -1,16 +1,16 @@
 package com.xworkz.aptitask;
 
-public class StarPattern2 {
+public class StarPatternPlus {
 
 	public static void main(String[] args) {
 		
-		int row = 5;
+		int row = 7;
 		
 		for(int i=1;i<=row;i++) {
 			
 			for(int j=1;j<=row;j++) {
 				
-				if((i==3)|| (j==3)) {
+				if((i==(row/2)+1)|| (j==(row/2)+1)) {
 					System.out.print (i+""+j+" ");
 				}
 				else {
