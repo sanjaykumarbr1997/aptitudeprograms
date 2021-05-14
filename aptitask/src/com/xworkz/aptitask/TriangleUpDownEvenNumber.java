@@ -19,8 +19,6 @@ public class TriangleUpDownEvenNumber {
 						System.out.print(m+" ");
 						m=m+2;
 					}
-					
-					
 				
 				}
 				else {
