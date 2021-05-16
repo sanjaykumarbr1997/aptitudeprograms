@@ -10,7 +10,7 @@ public class TriangleUp {
 		for(int i=1;i<=row;i++) {
 			for(int j=1;j<=row;j++) {
 				
-				if((j<=i)&& i+j>row) {
+				if((j<=i) || i+j>row) {
 				
 				System.out.print(i+""+j+" ");
 				}
