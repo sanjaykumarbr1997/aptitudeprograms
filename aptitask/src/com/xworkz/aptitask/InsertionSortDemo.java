@@ -12,30 +12,48 @@ public static void main(String[] args) {
 		}
 		System.out.println();
 		
-		
-		for(int l=0;l<ar1.length;l++) {
-		
-			int index=l;
-			for(int j=l+1;j<ar1.length;j++) {
-				if(ar1[j]<ar1[index]) {
-					index=j;	
-				}
-				
-				
-				
-			}
-			
-			int smallest = ar1[index];
-			ar1[index]= ar1[l];
-			ar1[l]=smallest;
-				
-			
-			}
-		System.out.println("After sorting");
 		for(int i=0;i<ar1.length;i++) {
-			System.out.print(ar1[i]+" ");
-		}
 			
+			int number = ar1[i];
+			
+			for(int j=i-1;j>-1;j--) {
+				
+				if(number<ar1[j]) {
+					ar1[j+1]= ar1[j];
+					ar1[j]=number;
+					
+				}
+				/*
+				System.out.println("    "+"While sorting in 2nd loop");
+				for(int lp:ar1) {
+					System.out.print(lp+" ");
+				}
+				System.out.println(); */
+				
+				
+				
+			}
+			
+			/*
+			System.out.println("sorting completed in 2 nd for loop");
+			for(int lz:ar1) {
+				System.out.print(lz+" ");
+			}
+			System.out.println();
+
+			*/
+			
+			
+		}
+		
+		System.out.println("After Sorting");
+		for(int lk:ar1) {
+			System.out.print(lk+" ");
+		}
+		
+		
+		
+		
 			
 	}
 
